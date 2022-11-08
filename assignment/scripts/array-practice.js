@@ -133,3 +133,5 @@ console.log('Array to string with and between:', foodArray.join(' and '));
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
+let foodAnimals = foodArray.concat(animalArray); 
+console.log(foodAnimals);
